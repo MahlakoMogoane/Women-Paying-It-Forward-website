@@ -1,5 +1,5 @@
 body {
-  font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Times New Roman', Times, serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   color: #000;
   font-weight: 300;
-  font-family: "Dosis", sans-serif; }
+  font-family: 'Times New Roman', Times, serif; }
 
 .text-primary {
   color: #319694 !important; }
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: 30px;
-  font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  font-family: 'Times New Roman', Times, serif;}
 
 .bg-image, .ftco-cover {
   background-size: cover;
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5,
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
-    font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+    font-family: 'Times New Roman', Times, serif; }
   @media (max-width: 991.98px) {
     .ftco-cover .btn {
       width: 100% !important; } }
@@ -555,7 +555,7 @@ textarea.form-control {
   margin-bottom: 10px; }
 
 .person-donate em {
-  font-family: serif; }
+  font-family: 'Times New Roman', Times, serif; }
 
 .person-donate img {
   border-radius: 7px;
@@ -624,7 +624,7 @@ textarea.form-control {
   background: #3c312e; }
 
 .footer {
-  background: #8f7760;
+  background: #319694;
   padding: 8em 0;
   color: #fff; }
   .footer .heading-section {
@@ -633,7 +633,7 @@ textarea.form-control {
     margin-bottom: 40px;
     letter-spacing: .1em;
     color: #fff !important;
-    font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+    font-family: 'Times New Roman', Times, serif; }
   .footer .block-21 .heading a {
     color: #fff !important; }
     .footer .block-21 .heading a:hover {
