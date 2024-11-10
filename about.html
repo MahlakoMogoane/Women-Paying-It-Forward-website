@@ -57,6 +57,26 @@
         border: 1px solid #ccc;
         border-top: none;
       }
+
+      .block-30 {
+          width: 100%;         /* Full width of the container */
+          height: auto;        /* Allow height to be determined by image */
+      }
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .block-30 {
+        height: 60vh; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .block-30 {
+        height: 50vh;
+    }
+}
+
     </style>
 
   </head>
@@ -175,10 +195,23 @@
     <div class="container">
       <div class="block-31 mb-5" style="position: relative;">
           <div class="owl-carousel loop-block-31">
-            <div class="block-30 no-overlay item" style="background-image: url('images/award.jpg');"></div>
+            <!--<div class="block-30 no-overlay item" style="background-image: url('images/award.jpg');"></div>
             <div class="block-30 no-overlay item" style="background-image: url('images/2.jpg');"></div>
             <div class="block-30 no-overlay item" style="background-image: url('images/3.jpg');"></div>
-            <div class="block-30 no-overlay item" style="background-image: url('images/12.jpg');"></div>
+            <div class="block-30 no-overlay item" style="background-image: url('images/12.jpg');"></div>-->
+
+            <div class="block-30 no-overlay item">
+              <img src="images/award.jpg" alt="Award Image">
+            </div>
+            <div class="block-30 no-overlay item">
+                <img src="images/2.jpg" alt="Image 2">
+            </div>
+            <div class="block-30 no-overlay item">
+                <img src="images/3.jpg" alt="Image 3">
+            </div>
+            <div class="block-30 no-overlay item">
+                <img src="images/12.jpg" alt="Image 4">
+            </div>
           </div>
         </div>
     </div>
